@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favi/favicon-16x16.png">
+    <link rel="manifest" href="favi/site.webmanifest">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Space Weight</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="text-center mt-5 mg-3 animated fadeIn slow"><a href="index.html" class="text-light text-decoration-none">Space Weight 🚀</a></h1>
+        <div class="text-center mx-auto animated fadeIn slow">
+            <a href="https://github.com/AsishRaju?tab=repositories" class="badge badge-light">Asish.io ⚡</a>
+        </div>
+        <div class="text-center mb-5 mt-5 para">
+            <p class="text-monospace font-weight-bold text-muted animated fadeInDown delay-2s" style="line-height: 1.3 !important;font-size: 20px;">Know your weight
+                in diffrent planets,
+                if your earth weight haunts you 😁</p>
+        </div>
+        
+
+        <div class="input-group mb-3 justify-content-center mt-3 animated fadeInDown delay-3s">
+            <input type="text" class="form-control font-weight-bold" placeholder="Enter Your Weight on 🏡" id="userW">
+            <div class="input-group-append">
+                <select class="custom-select font-weight-bold" id="Select01">
+                    <option selected>Select Units</option>
+                    <option value="1">kg</option>
+                    <option value="2">lbs</option>
+                </select>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row row-cols-1 row-cols-md-3 mt-5 d-none grids">
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-primary"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">MERCURY</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title  text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold mercuryW"></span>
+                        </h5>
+                        <a class="text-primary text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#MERCURY" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+                    </div>
+                </div>
+                <div class="collapse" id="MERCURY">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">3.70m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">~1,408 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-184&#176;C to
+                                427&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">175.3 M
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">3</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-primary"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">VENUS</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold venusW"></span> </h5>
+                        <a class="text-primary text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#VENUS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="VENUS">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">8.87m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">~5,832 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-173&#176;C
+                                to 467&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">84.4
+                                M km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">25</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-primary"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">MOON</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold moonW"></span> </h5>
+                        <a class="text-primary text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#MOON" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="MOON">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">1.62m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">655.72 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-173&#176;C to
+                                127&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">384,400
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">77</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-warning"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">MARS</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold marsW"></span> </h5>
+                        <a class="text-warning text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#MARS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="MARS">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">3.71m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">24.6 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-125&#176;C to
+                                20&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">205 M
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">28</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-warning"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">JUPITER</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold jupiterW"></span> </h5>
+                        <a class="text-warning text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#JUPITER" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="JUPITER">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">24.79m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">10 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-173&#176;C to
+                                427&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">768 M
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">6</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-warning"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">SATURN</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold saturnW"></span> </h5>
+                        <a class="text-warning text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#SATURN" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="SATURN">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">10.44m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">11 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-185&#176;C to
+                                -122&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">1.5 B
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">5</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-custom"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">URANUS</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold uranusW"></span> </h5>
+                        <a class="text-custom text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#URANUS" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="URANUS">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">8.87m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">17 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-218&#176;C to
+                                -153&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">3.1 B
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">1</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-custom"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">NEPTUNE</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace ">You weigh <span
+                                class="text-success text-monospace font-weight-bold neptuneW"></span> </h5>
+                        <a class="text-custom text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#NEPTUNE" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="collapse" id="NEPTUNE">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">11.15m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">16 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-218&#176;C to
+                                -200&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">4.6 B
+                                km</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">1</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+                    <div class="card-header text-center cf font-weight-bold text-custom"
+                        style="letter-spacing: 1.5px; font-size: 1.4rem;">PLUTO</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center text-monospace">You weigh <span
+                                class="text-success text-monospace font-weight-bold plutoW"></span> </h5>
+                        <a class="text-custom text-decoration-none fas fa-angle-down" data-toggle="collapse"
+                            href="#PLUTO" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="collapse" id="PLUTO">
+                    <div class="card card-body bg-dark">
+                        <p class="card-text text-monospace text-light">
+                            Gravity Pull:<span class="text-warning font-weight-bold"
+                                style="float: right;">0.62m/s<sup>2</sup></span>
+                            <br>
+                            1 Day:<span class="text-warning font-weight-bold" style="float: right;">153 Earth
+                                hours</span>
+                            <br>
+                            Temp Range:<span class="text-warning font-weight-bold" style="float: right;">-233&#176;C to
+                                -223&#176;C</span>
+                            <br>
+                            Distance to Earth:<span class="text-warning font-weight-bold" style="float: right;">77.3
+                                Mkm</span>
+                            <br>
+                            Space Missions:<span class="text-warning font-weight-bold" style="float: right;">1</span>
+                        </p>
+
+
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/0de963d6c4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>

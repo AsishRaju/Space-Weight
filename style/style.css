@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Andromeda-eR2n.ttf);
+}
+
+
+.grids::-webkit-scrollbar-track
+{
+	border: none;
+	background-color: #1b262c;
+}
+
+.grids::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #1b262c;
+}
+
+.grids::-webkit-scrollbar-thumb
+{
+	background-color: #2c86b6;	
+}
+
+body{
+  background: url('img/pic3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  }
+h1{
+  font-family: myFirstFont;
+    font-weight: 600;
+    color:  #eeeeee;
+}
+
+.cf{
+  font-family: myFirstFont;
+
+}
+.grids{
+  max-height: 360px;
+  overflow-y:auto
+}
+.container{
+    max-width: 1000px;
+}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+.text-custom{
+  color: #17b978;
+}
+input[type=text],
+input[type=text]:focus{
+    /* margin-top: 50px !important; */
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background:#0f4c75;
+    max-width: 400px;
+    max-height: 90px ;
+}
+
+select{
+    color: #fff !important;
+    border: none !important;
+    background:#0c75bb !important;
+  
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  text-align: center;
+  color:white !important;
+  opacity: 0.5; /* Firefox */
+}
