@@ -1,5 +1,5 @@
 # Space Weight 👨🏻‍🚀
- Know your weight in diffrent planets,if your earth weight haunts you 😁
+ Know your weight in different planets,if your earth weight haunts you 😁
 
 ### Check it out [here]!
 <img src="https://forthebadge.com/images/badges/made-with-javascript.svg"> 
