@@ -27,4 +27,4 @@
 [Gmail]: <mailto:vashish888@gmail.com>
 [LinkedIn]: <https://www.linkedin.com/in/asish-raju-7a0b90192>
 [Twitter]: <https://twitter.com/vashish888>
-[here]:<https://asishraju.github.io/Space-Weight/>
+[here]:<http://asishraju.me/Space-Weight/>
